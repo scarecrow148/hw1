@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    color: #2196F3;
+}
+
+.logo span {
+    color: #2196F3;
+}
+
+.logo:hover span {
+    color: black;
+}
+
+.solutions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 600px;
+    
+    background-color: #2F303A;
+}
+
+.solutions h1 {
+    text-transform: uppercase;
+    color:white;
+
+    width: 50vw;
+    font-weight: 900;
+    font-size: 44px;
+}
+
+.solutions input {
+    width: 200px;
+    height: 50px;
+
+    border: 0px;
+    border-radius: 4%;
+
+    text-transform: uppercase;
+    background: #2196F3;
+    color:white;
+}
+
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.details li {
+    margin: 0 20px;
+}
+
+.details li h5 {
+    color: #212121;
+}
+
+.details li p {
+    color: #757575;
+}
+
+.responsibilities h2 {
+    text-align: center;
+}
+
+.tech-images {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.tech-images li img {
+    width: 370px;
+    margin: 20px;
+}
+
+.tech-images li img {
+    width: 370px;
+}
+
+.team {
+    text-align: center;
+
+    background: #F5F4FA;
+}
+
+
+.team ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.team ul li {
+    margin: 20px;
+}
+
+.team ul li img{
+    width: 200px;
+}
+
+footer {
+    padding: 40px 60px;
+    background: #2F303A;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+footer div {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    margin: 10px 0;
+}
+
