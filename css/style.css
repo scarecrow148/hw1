@@ -1,15 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
 }
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .menu {
     display: flex;
     align-items: center;
@@ -27,7 +26,10 @@ header {
     font-size: 14px;
 }
 
+
+
 .nav-link {
+    margin: 0 10px;
     text-decoration: none;
     color: black;
 }
@@ -36,6 +38,9 @@ header {
     color: #2196F3;
 }
 
+.logo {
+    font-family: 'Raleway', sans-serif;
+}
 .logo span {
     color: #2196F3;
 }
@@ -76,46 +81,43 @@ header {
 }
 
 
-.details {
+.details ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    
 }
 
-.details li {
+.details ul li {
     margin: 0 20px;
 }
 
-.details li h5 {
+.details ul li h3 {
     color: #212121;
+    font-weight: 700;
 }
 
-.details li p {
+.details ul li p {
     color: #757575;
+    font-weight: 400;
 }
 
-.responsibilities h2 {
+.tech-images h2 {
     text-align: center;
 }
 
-.tech-images {
+.tech-images ul {
     display: flex;
     justify-content: center;
     list-style: none;
 }
 
-.tech-images li img {
-    width: 370px;
+.tech-images ul li img {
     margin: 20px;
-}
-
-.tech-images li img {
-    width: 370px;
 }
 
 .team {
     text-align: center;
-
     background: #F5F4FA;
 }
 
@@ -130,8 +132,19 @@ header {
     margin: 20px;
 }
 
-.team ul li img{
+.team ul li h3 {
+    font-weight: 500;
+}
+
+.team ul li label {
+    color: #757575;
+    font-weight: 400;
+}
+
+.team ul li label{
     width: 200px;
+    color: #757575;
+    font-size: 400;
 }
 
 footer {
@@ -143,10 +156,25 @@ footer {
     font-size: 26px;
 }
 
-footer div {
+footer ul {
     font-weight: 400;
     font-size: 14px;
+    list-style: none;
     color: white;
+    padding: 0;
+}
+
+footer ul li {
     margin: 10px 0;
+    font-size: 14px;
+}
+
+footer ul li address {
+    font-style: normal;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
 }
 
