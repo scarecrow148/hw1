@@ -141,12 +141,6 @@ header {
     font-weight: 400;
 }
 
-.team ul li label{
-    width: 200px;
-    color: #757575;
-    font-size: 400;
-}
-
 footer {
     padding: 40px 60px;
     background: #2F303A;
